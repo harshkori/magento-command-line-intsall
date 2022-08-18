@@ -1,4 +1,4 @@
-$php bin/magento setup:install --php -dmemory_limit=-1 bin/magento setup:install --base-url="http://127.0.0.1/magento237" --db-user="magento237" --db-password
+$php bin/magento setup:install --base-url="http://127.0.0.1/magento237" --db-user="magento237" --db-password
 ="magento237" --db-host="localhost" --db-name="mag237" --admin-firstname="prod9" --admin-lastname="admin" --admin-email="test7.23digital@gmail.com" --admin-user
 ="superadmin" --admin-password="admin123" --backend-frontname="admin" --language="en_US" --currency="USD" --timezone="America/Chicago" 
 --use-rewrites="1" 
