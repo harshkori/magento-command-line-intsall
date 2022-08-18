@@ -4,3 +4,12 @@ $php bin/magento setup:install --base-url="http://127.0.0.1/magento237" --db-use
 --use-rewrites="1" 
 
 After this run setup upgrade command and then deploy coomand.
+
+
+------------------------------------------------------------------for magento 2.4--------------------------------------------------------------------------
+
+
+php bin/magento setup:install --base-url="http://demo.magento243.com" --db-host=localhost --db-name="demo243" --db-user=root --db-password="admin123" 
+--admin-firstname=Admin --admin-lastname=Admin --admin-email=admin@admin.com --admin-user=admin --admin-password="Admin@123" --language=en_US 
+--currency=USD --timezone=America/Chicago --backend-frontname=admin --search-engine=elasticsearch7 --elasticsearch-host=localhost 
+--elasticsearch-port=9200
